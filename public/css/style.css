@@ -239,15 +239,20 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+
+
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 250px;
   padding-bottom: 200px;
   text-align: center;
 }
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding: 100px 0;
 }
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -605,3 +610,12 @@ label {
     margin: 50px 0;
   }
 }
+
+@media (max-width: 400px) {
+  #features {
+    background: #f6f6f6;
+    padding: 100px 0;
+  }
+}
+
+
