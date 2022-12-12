@@ -1,0 +1,34 @@
+.about-img {
+    width: 180px;
+    
+
+  }
+.logo-a {
+    padding: 0 !important;
+}
+
+.navbar-header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+@media (max-width: 1200px) {
+    .nav-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+    .nav-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
+}
