@@ -102,13 +102,13 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Alex Alekseev",
+      "job": "CEO"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Viktor Lobnya",
+      "job": "Marketing and Sales"
     },
     {
       "img": "img/team/03.jpg",
