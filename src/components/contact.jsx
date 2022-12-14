@@ -132,7 +132,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; {new Date().getFullYear()} Thirdweb Pro Solutions
+            &copy; {new Date().getFullYear()} ThirdWeb Pro Solutions
           </p>
         </div>
       </div>
