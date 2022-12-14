@@ -103,22 +103,22 @@
     {
       "img": "img/team/01.jpg",
       "name": "Alex Alekseev",
-      "job": "CEO"
+      "job": "CEO, marketing and sales"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Viktor Lobnya",
-      "job": "Marketing and Sales"
+      "job": "Full stack developer"
     },
     {
       "img": "img/team/03.jpg",
       "name": "Jane Doe",
-      "job": "Senior Designer"
+      "job": "Blockchain Dev"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Dmitry Velichko",
+      "job": "Frontend and blockchain dev"
     }
   ],
   "Contact": {
