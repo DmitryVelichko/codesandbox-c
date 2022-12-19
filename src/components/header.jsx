@@ -12,7 +12,7 @@ export const Header = (props) => {
                 </h1>
                 <p style={{fontWeight: 'bold'}}>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='#features'
+                  href='#contact'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Contact Us

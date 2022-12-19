@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "Web3 Studio",
-    "paragraph": "We create traditional and decentralized web apps using React and Next combined with blockchain technology."
+    "paragraph": "We create traditional and decentralized web apps combined with blockchain technology."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Thirdweb Pro Solutions designs solutions to leverage token economics and non-fungible tokens (NFTs) to empower the ownership of digital assets. We can help you to create both traditional Web 2.0 websites and apps, as well as Web 3.0 decentralized applications based on the Ethereum blockchain.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "100% custom built solutions",
+      "Deep expretise",
+      "No sales people",
+      "Result oriented"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "We do NOT build scam projects",
+      "Competitive prices",
+      "We work fast",
+      "Money Back Guarantee"
     ]
   },
   "Gallery": [
@@ -131,24 +131,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-desktop",
+      "title": "Traditional Websites",
+      "text": "From landing pages to complex e-commerce stores. We will create a corporate website presenting your benefits, services and products in a clear, structured and visually appealing way."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cubes",
+      "title": "Decentralized Apps",
+      "text": "We will help you create dapps on the Ethereum blockchain. Acquire new makrets, income streams and propel your business into the future."
+    },
+    {
+      "icon": "fa fa-btc",
+      "title": "Tokens, Coins and NFTs",
+      "text": "ERC-20, ERC-721, ERC-1155 tokens, staking, vesting, timelock for the listed tokens, contracts for dividend payments, smart contracts development in Solidity."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Consulting",
+      "text": "From FinTech to online gaming to social media. Our expert software solutions will help your team bring your next blockchain project to fruition."
     }
   ]
 }

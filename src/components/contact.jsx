@@ -108,7 +108,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-send'></i> Telegram
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
