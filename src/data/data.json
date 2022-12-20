@@ -130,7 +130,16 @@
       "name": "Mark Bergov",
       "job": "Backend Dev"
     },
-   
+    {
+      "img": "img/team/07.png",
+      "name": "Dennis Lisakov",
+      "job": "Frontend Dev"
+    },
+    {
+      "img": "img/team/08.png",
+      "name": "Grisha Tereshko",
+      "job": "Blockchain dev"
+    }
   ],
   "Contact": {
     "address": "N32 office N87 Zhiuli Shartava Street, Batumi, Georgia ",
