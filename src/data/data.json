@@ -37,34 +37,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-desktop",
       "name": "Frontend Development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "$40/hour."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-database",
       "name": "Backend Development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "70$/hour."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-cube",
       "name": "Solidity Development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "$70/hour. Smart contract development of any complexity."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Tokens, Coins & NFT",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-btc",
+      "name": "Launching Tokens, Coins & NFTs",
+      "text": "Price depends on the project."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Training & Courses",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-list-alt",
+      "name": "Smart Contracts Audit",
+      "text": "$70/hour."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "icon": "fa fa-group",
       "name": "Consulting",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "$70/hour."
     }
   ],
   "Testimonials": [
@@ -101,30 +101,21 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/01.png",
       "name": "Alex Alekseev",
-      "job": "CEO, marketing and sales"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Viktor Lobnya",
-      "job": "Full stack developer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
       "job": "Blockchain Dev"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Dmitry Velichko",
-      "job": "Frontend and blockchain dev"
-    }
+      "img": "img/team/02.png",
+      "name": "Tamara Ivanova",
+      "job": "Frontend Dev"
+    },
+   
   ],
   "Contact": {
     "address": "N32 office N87 Zhiuli Shartava Street, Batumi, Georgia ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "email": "info@thirdwebprosolutions.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
