@@ -110,6 +110,16 @@
       "name": "Tamara Ivanova",
       "job": "Frontend Dev"
     },
+    {
+      "img": "img/team/03.png",
+      "name": "Serj Krasko",
+      "job": "Backend Dev"
+    },
+    {
+      "img": "img/team/04.png",
+      "name": "Dmitry Velichko",
+      "job": "Frontend and Blockchain dev"
+    },
    
   ],
   "Contact": {
