@@ -120,6 +120,16 @@
       "name": "Dmitry Velichko",
       "job": "Frontend and Blockchain dev"
     },
+    {
+      "img": "img/team/05.png",
+      "name": "Anna Narine",
+      "job": "Frontend Dev and Designer"
+    },
+    {
+      "img": "img/team/06.png",
+      "name": "Mark Bergov",
+      "job": "Backend Dev"
+    },
    
   ],
   "Contact": {
