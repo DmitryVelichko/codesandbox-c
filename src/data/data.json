@@ -69,34 +69,34 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/testimonials/01.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Alyona Tereshko"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/02.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Jade Erasmo"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/testimonials/03.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Alex Farafonov"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/04.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Stanislav Orlov"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/testimonials/05.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Nargiz Ziadullaeva"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/06.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Danila Vasilenko"
     }
   ],
   "Team": [
@@ -134,11 +134,6 @@
       "img": "img/team/07.png",
       "name": "Dennis Lisakov",
       "job": "Frontend Dev"
-    },
-    {
-      "img": "img/team/08.png",
-      "name": "Grisha Tereshko",
-      "job": "Blockchain dev"
     }
   ],
   "Contact": {
