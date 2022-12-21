@@ -86,17 +86,17 @@
     {
       "img": "img/testimonials/04.png",
       "text": "\"Great serive. Our project (a website for a linguistic agency) was delivered on time and with the quality level we've expected.\"",
-      "name": "Stanislav Orlov, "
+      "name": "Stanislav Orlov, individual entrepreneur"
     },
     {
       "img": "img/testimonials/05.png",
       "text": "\"Best company in the space we've interacted with so far! Very effecient. Our website was redisigned on time without any delays.\"",
-      "name": "Nargiz Ziadullaeva"
+      "name": "Nargiz Ziadullaeva, business owner"
     },
     {
       "img": "img/testimonials/06.png",
-      "text": "\"Very professional team. Appreciate the work done!\"",
-      "name": "Danila Vasilenko"
+      "text": "\"Very professional team. Helped me with a blockchain part of my project. Appreciate the work done!\"",
+      "name": "Danila Vasilenko, fullstack dev"
     }
   ],
   "Team": [
