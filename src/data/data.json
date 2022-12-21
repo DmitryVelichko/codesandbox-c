@@ -81,12 +81,12 @@
     {
       "img": "img/testimonials/03.png",
       "text": "\"ThirdWeb Pro Solutions studio is very professional in its work-ethics. And their customer assistance is remarkable.\"",
-      "name": "Alex Farafonov"
+      "name": "Andrew Tito, Business Owner"
     },
     {
       "img": "img/testimonials/04.png",
       "text": "\"Great serive. Our project (a website for a linguistic agency) was delivered on time and with the quality level we've expected.\"",
-      "name": "Stanislav Orlov, individual entrepreneur"
+      "name": "Ann Haddad, individual entrepreneur"
     },
     {
       "img": "img/testimonials/05.png",
@@ -102,37 +102,22 @@
   "Team": [
     {
       "img": "img/team/01.png",
-      "name": "Alex Alekseev",
+      "name": "Alex Orlov",
       "job": "Blockchain Dev"
     },
     {
       "img": "img/team/02.png",
-      "name": "Tamara Ivanova",
-      "job": "Frontend Dev"
+      "name": "Maria Pavlova",
+      "job": "Fullstack Dev"
     },
     {
-      "img": "img/team/03.png",
-      "name": "Serj Krasko",
-      "job": "Backend Dev"
+      "img": "img/team/06.png",
+      "name": "Oleg Alekseev",
+      "job": "Backend and Blockchain Dev"
     },
     {
       "img": "img/team/04.png",
       "name": "Dmitry Velichko",
-      "job": "Frontend and Blockchain dev"
-    },
-    {
-      "img": "img/team/05.png",
-      "name": "Anna Narine",
-      "job": "Frontend Dev and Designer"
-    },
-    {
-      "img": "img/team/06.png",
-      "name": "Mark Bergov",
-      "job": "Backend Dev"
-    },
-    {
-      "img": "img/team/07.png",
-      "name": "Dennis Lisakov",
       "job": "Frontend Dev"
     }
   ],
