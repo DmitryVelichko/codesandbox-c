@@ -70,32 +70,32 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.png",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Alyona Tereshko"
+      "text": "\"I'm a cafe owner and we asked ThirdWeb Pro Studios to make us a website. It was done really fast and guys made everything perfectly. I would definitely recommend them!\"",
+      "name": "Alyona Tereshko, Go Vegan Cafe owner"
     },
     {
       "img": "img/testimonials/02.png",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Jade Erasmo"
+      "text": "\"Very good work. Enjoyed working with real professionals. I can recommend their services to anyone.\"",
+      "name": "Jade Erasmo, MD"
     },
     {
       "img": "img/testimonials/03.png",
-      "text": "\"ThirdWeb Pro Solutions studio is very professional in its work-ethics. Ti's customer assistance is remarkable.\"",
+      "text": "\"ThirdWeb Pro Solutions studio is very professional in its work-ethics. And their customer assistance is remarkable.\"",
       "name": "Alex Farafonov"
     },
     {
       "img": "img/testimonials/04.png",
-      "text": "\"Great serive. Our project was delivered on time and with the quality level we've expected.\"",
-      "name": "Stanislav Orlov"
+      "text": "\"Great serive. Our project (a website for a linguistic agency) was delivered on time and with the quality level we've expected.\"",
+      "name": "Stanislav Orlov, "
     },
     {
       "img": "img/testimonials/05.png",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"Best company in the space we've interacted with so far! Very effecient. Our website was redisigned on time without any delays.\"",
       "name": "Nargiz Ziadullaeva"
     },
     {
       "img": "img/testimonials/06.png",
-      "text": "\"Professional.\"",
+      "text": "\"Very professional team. Appreciate the work done!\"",
       "name": "Danila Vasilenko"
     }
   ],
