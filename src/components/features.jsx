@@ -19,5 +19,5 @@ export const Features = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
