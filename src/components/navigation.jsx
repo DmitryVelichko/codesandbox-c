@@ -1,5 +1,5 @@
 /*eslint-disable */
-import './navigation.css'
+import './navigation.css';
 
 export const Navigation = (props) => {
   return (
@@ -19,7 +19,11 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='logo-a navbar-brand page-scroll' href='#page-top'>
-            <img src="img/logo.png" alt="Thirdweb pro solutions" className="about-img"/>
+            <img
+              src='img/logo.png'
+              alt='Thirdweb pro solutions'
+              className='about-img'
+            />
           </a>{' '}
         </div>
 
@@ -67,5 +71,5 @@ export const Navigation = (props) => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
