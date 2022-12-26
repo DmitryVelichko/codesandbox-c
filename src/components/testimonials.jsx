@@ -25,5 +25,5 @@ export const Testimonials = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
