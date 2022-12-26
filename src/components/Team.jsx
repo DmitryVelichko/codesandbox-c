@@ -26,5 +26,5 @@ export const Team = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
