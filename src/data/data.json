@@ -4,7 +4,7 @@
     "paragraph": "We create traditional and decentralized web apps combined with blockchain technology."
   },
   "About": {
-    "paragraph": "Thirdweb Pro Solutions designs solutions to leverage token economics and non-fungible tokens (NFTs) to empower the ownership of digital assets. We can help you to create both traditional Web 2.0 websites and apps, as well as Web 3.0 decentralized applications based on the Ethereum blockchain.",
+    "paragraph": "Thirdweb Pro Solutions designs solutions to leverage token economics and non-fungible tokens (NFTs) to empower the ownership of digital assets. We can help you to create both  2.0 websites and apps, as well as Web 3.0 decentralized applications based on the Ethereum blockchain.",
     "Why": [
       "100% custom built solutions",
       "Deep expretise",
@@ -39,12 +39,12 @@
     {
       "icon": "fa fa-desktop",
       "name": "Frontend Development",
-      "text": "$40/hour."
+      "text": "$40/hour"
     },
     {
       "icon": "fa fa-database",
       "name": "Backend Development",
-      "text": "70$/hour."
+      "text": "70$/hour"
     },
     {
       "icon": "fa fa-cube",
@@ -59,12 +59,12 @@
     {
       "icon": "fa fa-list-alt",
       "name": "Smart Contracts Audit",
-      "text": "$70/hour."
+      "text": "$70/hour"
     },
     {
       "icon": "fa fa-group",
       "name": "Consulting",
-      "text": "$70/hour."
+      "text": "$50/hour"
     }
   ],
   "Testimonials": [
@@ -133,7 +133,7 @@
     {
       "icon": "fa fa-desktop",
       "title": "Traditional Websites",
-      "text": "From landing pages to complex e-commerce stores. We will create a corporate website presenting your benefits, services and products in a clear, structured and visually appealing way."
+      "text": "From landing pages to complex e-commerce stores to marketplaces."
     },
     {
       "icon": "fa fa-cubes",
