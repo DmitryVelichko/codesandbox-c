@@ -70,55 +70,60 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.png",
-      "text": "\"I'm a cafe owner and we asked ThirdWeb Pro Studios to make us a website. It was done really fast and guys made everything perfectly. I would definitely recommend them!\"",
+      "text": "I'm a cafe owner and we asked ThirdWeb Pro Studios to make us a website. It was done really fast and guys made everything perfectly. I would definitely recommend them!",
       "name": "Alyona Tereshko, Go Vegan Cafe owner"
     },
     {
       "img": "img/testimonials/02.png",
-      "text": "\"Very good work. Enjoyed working with real professionals. I can recommend their services to anyone.\"",
+      "text": "Very good work. Enjoyed working with real professionals. I can recommend their services to anyone. Best company in the space we've interacted with so far! Very effecient. Our website was redisigned on time without any delays",
       "name": "Jade Erasmo, MD"
     },
     {
       "img": "img/testimonials/03.png",
-      "text": "\"ThirdWeb Pro Solutions studio is very professional in its work-ethics. And their customer assistance is remarkable.\"",
+      "text": "ThirdWeb Pro Solutions studio is very professional in its work-ethics. And their customer assistance is remarkable. Our project (a website for a linguistic agency) was delivered on time and with the quality level we've expected.",
       "name": "Andrew Tito, Business Owner"
-    },
-    {
-      "img": "img/testimonials/04.png",
-      "text": "\"Great serive. Our project (a website for a linguistic agency) was delivered on time and with the quality level we've expected.\"",
-      "name": "Ann Haddad, individual entrepreneur"
-    },
-    {
-      "img": "img/testimonials/05.png",
-      "text": "\"Best company in the space we've interacted with so far! Very effecient. Our website was redisigned on time without any delays.\"",
-      "name": "Nargiz Ziadullaeva, business owner"
-    },
-    {
-      "img": "img/testimonials/06.png",
-      "text": "\"Very professional team. Helped me with a blockchain part of my project. Appreciate the work done!\"",
-      "name": "Danila Vasilenko, fullstack dev"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.png",
-      "name": "Alex Orlov",
+      "name": "Alex",
       "job": "Blockchain Dev"
     },
     {
       "img": "img/team/02.png",
-      "name": "Maria Pavlova",
+      "name": "Raj",
       "job": "Fullstack Dev"
     },
     {
-      "img": "img/team/06.png",
-      "name": "Oleg Alekseev",
+      "img": "img/team/03.png",
+      "name": "Oleg",
       "job": "Backend and Blockchain Dev"
     },
     {
       "img": "img/team/04.png",
-      "name": "Dmitry Velichko",
+      "name": "Dmitry",
       "job": "Frontend Dev"
+    },
+    {
+      "img": "img/team/05.png",
+      "name": "Maria",
+      "job": "Designer"
+    },
+    {
+      "img": "img/team/08.png",
+      "name": "Pawan",
+      "job": "Frontend Dev"
+    },
+    {
+      "img": "img/team/09.png",
+      "name": "Ivan",
+      "job": "Blockchain and Frontend Dev"
+    },
+    {
+      "img": "img/team/10.png",
+      "name": "Arjun",
+      "job": "Backend Dev"
     }
   ],
   "Contact": {
