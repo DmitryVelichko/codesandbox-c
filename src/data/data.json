@@ -20,19 +20,19 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "NFTs",
+      "largeImage": "img/portfolio/1.webp",
+      "smallImage": "img/portfolio/1.png"
     },
     {
-      "title": "Project Title",
+      "title": "DeFi",
       "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "smallImage": "img/portfolio/2.png"
     },
     {
-      "title": "Project Title",
+      "title": "Fintech",
       "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "smallImage": "img/portfolio/3.png"
     }
   ],
   "Services": [
@@ -91,13 +91,13 @@
       "job": "Blockchain Dev"
     },
     {
-      "img": "img/team/02.png",
+      "img": "img/team/raj.png",
       "name": "Raj",
       "job": "Fullstack Dev"
     },
     {
       "img": "img/team/03.png",
-      "name": "Oleg",
+      "name": "Stefan",
       "job": "Backend and Blockchain Dev"
     },
     {
@@ -106,8 +106,8 @@
       "job": "Frontend Dev"
     },
     {
-      "img": "img/team/05.png",
-      "name": "Maria",
+      "img": "img/team/maria.png",
+      "name": "Mary",
       "job": "Designer"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "img": "img/team/09.png",
-      "name": "Ivan",
+      "name": "Chris",
       "job": "Blockchain and Frontend Dev"
     },
     {
@@ -127,8 +127,8 @@
     }
   ],
   "Contact": {
-    "address": "N32 office N87 Zhiuli Shartava Street, Batumi, Georgia ",
-    "phone": "+1 123 456 1234",
+    "address": "Cross Campus, Pasadena, 87 N Raymond Ave, Pasadena, CA 91103, United States",
+    "phone": "@ThirdWebProSolutions",
     "email": "info@thirdwebprosolutions.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",

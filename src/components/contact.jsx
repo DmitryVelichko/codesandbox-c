@@ -13,23 +13,24 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
+  // const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(name, email, message);
+  //   emailjs
+  //     .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         clearState();
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
+  
   return (
     <div>
       <div id='contact'>
