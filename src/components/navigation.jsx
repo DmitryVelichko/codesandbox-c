@@ -1,7 +1,7 @@
 /*eslint-disable */
 import './navigation.css';
 
-export const Navigation = (props) => {
+ const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container nav-box'>
@@ -73,3 +73,5 @@ export const Navigation = (props) => {
     </nav>
   );
 };
+
+export default Navigation
