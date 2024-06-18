@@ -2,6 +2,7 @@ import { useState, useEffect, lazy, Suspense } from 'react';
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
 import './App.css';
+import Fallback from './Fallback'
 
 const Navigation = lazy(() => import('./components/Navigation'));
 const Header = lazy(() => import('./components/Header'));
@@ -26,15 +27,15 @@ const App = () => {
   }, []);
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}><Navigation /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Header data={landingPageData.Header} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Features data={landingPageData.Features} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><About data={landingPageData.About} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Services data={landingPageData.Services} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Gallery data={landingPageData.Gallery} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Testimonials data={landingPageData.Testimonials} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Team data={landingPageData.Team} /> </Suspense>
-      <Suspense fallback={<div>Loading...</div>}><Contact data={landingPageData.Contact} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Navigation /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Header data={landingPageData.Header} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Features data={landingPageData.Features} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><About data={landingPageData.About} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Services data={landingPageData.Services} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Gallery data={landingPageData.Gallery} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Testimonials data={landingPageData.Testimonials} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Team data={landingPageData.Team} /> </Suspense>
+      <Suspense fallback={<Fallback/>}><Contact data={landingPageData.Contact} /> </Suspense>
     </div>
   );
 };
