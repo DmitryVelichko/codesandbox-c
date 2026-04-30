@@ -128,7 +128,7 @@ const initialState = {
       </div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>&copy; {new Date().getFullYear()} ThirdWeb Pro Solutions</p>
+          <p>&copy; {new Date().getFullYear()} Evolut AI</p>
         </div>
       </div>
     </div>
