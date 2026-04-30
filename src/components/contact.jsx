@@ -15,21 +15,32 @@ const initialState = {
   };
   // const clearState = () => setState({ ...initialState });
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(name, email, message);
-  //   emailjs
-  //     .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         clearState();
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .send(
+      'service_6g0mxrg',     // from EmailJS
+      'template_cztc59k',    // from EmailJS
+      {
+        name: name,
+        email: email,
+        message: message,
+      },
+      '2cHgTZQn6tIwu2ffm'      // (was USER_ID, now called public key)
+    )
+    .then(
+      (result) => {
+        console.log('SUCCESS!', result.text);
+        alert('Message sent successfully!');
+        setState(initialState);
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+        alert('Something went wrong. Try again.');
+      }
+    );
+};
 
   return (
     <div>
@@ -44,7 +55,7 @@ const initialState = {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name='sentMessage' action="https://formsubmit.co/dmitryvelichko2010@gmail.com" method="POST">
+              <form name='sentMessage' onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
