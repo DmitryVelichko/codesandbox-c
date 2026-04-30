@@ -10,7 +10,6 @@ const Features = lazy(() => import('./components/Features'));
 const About = lazy(() => import('./components/About'));
 const Services = lazy(() => import('./components/Services'));
 const Gallery = lazy(() => import('./components/Gallery'));
-const Testimonials = lazy(() => import('./components/Testimonials'));
 const Team = lazy(() => import('./components/Team'));
 const Contact = lazy(() => import('./components/Contact'));
 
@@ -33,7 +32,6 @@ const App = () => {
       <Suspense fallback={<Fallback/>}><About data={landingPageData.About} /> </Suspense>
       <Suspense fallback={<Fallback/>}><Services data={landingPageData.Services} /> </Suspense>
       <Suspense fallback={<Fallback/>}><Gallery data={landingPageData.Gallery} /> </Suspense>
-      <Suspense fallback={<Fallback/>}><Testimonials data={landingPageData.Testimonials} /> </Suspense>
       <Suspense fallback={<Fallback/>}><Team data={landingPageData.Team} /> </Suspense>
       <Suspense fallback={<Fallback/>}><Contact data={landingPageData.Contact} /> </Suspense>
     </div>

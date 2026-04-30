@@ -445,21 +445,26 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
-#team {
+#usecases {
   padding: 100px 0;
 }
-#team h4 {
-  margin: 5px 0;
+
+#usecases .usecase-box {
+  margin-bottom: 40px;
+  padding: 20px;
 }
-#team .team-img {
-  width: 240px;
+
+#usecases i {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #5ca9fb;
 }
-#team .thumbnail {
-  background: transparent;
-  border: 0;
+
+#usecases h4 {
+  margin: 10px 0;
 }
-#team .thumbnail .caption {
-  padding: 10px 0 0;
+
+#usecases p {
   color: #888;
 }
 /* Contact Section */

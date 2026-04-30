@@ -1127,6 +1127,11 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+.about-image1{
+ width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;

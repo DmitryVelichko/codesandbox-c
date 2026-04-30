@@ -1,70 +1,70 @@
 {
   "Header": {
-    "title": "Web3 Studio",
-    "paragraph": "We create traditional and decentralized web apps combined with blockchain technology."
+    "title": "Evolut AI Systems",
+    "paragraph": "We build AI-powered software that automates and scales your business."
   },
   "About": {
-    "paragraph": "Thirdweb Pro Solutions designs solutions to leverage token economics and non-fungible tokens (NFTs) to empower the ownership of digital assets. We can help you to create both  2.0 websites and apps, as well as Web 3.0 decentralized applications based on the Ethereum blockchain.",
+    "paragraph": "Evolut AI Systems is a software studio focused on building practical AI systems that help businesses automate workflows, improve products, and unlock new capabilities through intelligent software. We combine modern full-stack engineering with applied AI to deliver systems that are reliable, scalable, and production-ready—not experiments or prototypes.",
     "Why": [
-      "100% custom built solutions",
-      "Deep expretise",
-      "No sales people",
-      "Result oriented"
+      "Custom-built AI systems",
+      "End-to-end full-stack delivery",
+      "Production-ready AI expertise",
+      "Business-focused solutions"
     ],
     "Why2": [
-      "We do NOT build scam projects",
-      "Competitive prices",
-      "We work fast",
+      "Fast iterative development",
+      "Scalable architecture design",
+      "Seamless product integration",
       "Money Back Guarantee"
     ]
   },
   "Gallery": [
     {
-      "title": "NFTs",
+      "title": "SaaS & B2B platforms",
       "largeImage": "img/portfolio/1.webp",
-      "smallImage": "img/portfolio/1.png"
+      "smallImage": "img/portfolio/1.webp"
     },
     {
-      "title": "DeFi",
+      "title": "E-commerce & retail",
       "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/2.png"
+      "smallImage": "img/portfolio/2.webp"
     },
     {
-      "title": "Fintech",
+      "title": "Financial services & fintech products",
       "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/3.png"
+      "smallImage": "img/portfolio/3.webp"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-desktop",
-      "name": "Frontend Development",
-      "text": "$40/hour"
+      "icon": "fa fa-cogs",
+      "name": "AI Workflow Automation",
+      "text": "Automate repetitive business processes and reduce operational overhead."
     },
     {
-      "icon": "fa fa-database",
-      "name": "Backend Development",
-      "text": "70$/hour"
+      "icon": "fa fa-comments",
+      "name": "Custom AI Assistants",
+      "text": "Build intelligent assistants trained on your business data and workflows."
     },
     {
-      "icon": "fa fa-cube",
-      "name": "Solidity Development",
-      "text": "$70/hour. Smart contract development of any complexity."
+      "icon": "fa fa-plug",
+      "name": "AI Integration for SaaS Products",
+      "text": "Add AI features like copilots, smart search, and content generation."
     },
     {
-      "icon": "fa fa-btc",
-      "name": "Launching Tokens, Coins & NFTs",
-      "text": "Price depends on the project."
+      "icon": "fa fa-file-text-o",
+      "name": "Data & Document Intelligence Systems",
+      "text": "Turn unstructured data into structured insights and actionable outputs."
     },
     {
-      "icon": "fa fa-list-alt",
-      "name": "Smart Contracts Audit",
-      "text": "$70/hour"
+      "icon": "fa fa-server",
+      "name": "System Architecture & Backend Development",
+      "text": "Design and build scalable backend systems for AI-powered products."
     },
     {
-      "icon": "fa fa-group",
-      "name": "Consulting",
-      "text": "$50/hour"
+      "icon": "fa fa-lightbulb-o",
+      "name": "AI Consulting and Product Strategy Services",
+      "text": "Help teams identify and implement high-impact AI use cases."
     }
   ],
   "Testimonials": [
@@ -84,48 +84,38 @@
       "name": "Andrew Tito, Business Owner"
     }
   ],
-  "Team": [
-    {
-      "img": "img/team/01.png",
-      "name": "Alex",
-      "job": "Blockchain Dev"
-    },
-    {
-      "img": "img/team/raj.png",
-      "name": "Raj",
-      "job": "Fullstack Dev"
-    },
-    {
-      "img": "img/team/03.png",
-      "name": "Stefan",
-      "job": "Backend and Blockchain Dev"
-    },
-    {
-      "img": "img/team/04.png",
-      "name": "Dmitry",
-      "job": "Frontend Dev"
-    },
-    {
-      "img": "img/team/maria.png",
-      "name": "Mary",
-      "job": "Designer"
-    },
-    {
-      "img": "img/team/08.png",
-      "name": "Pawan",
-      "job": "Frontend Dev"
-    },
-    {
-      "img": "img/team/09.png",
-      "name": "Chris",
-      "job": "Blockchain and Frontend Dev"
-    },
-    {
-      "img": "img/team/10.png",
-      "name": "Arjun",
-      "job": "Backend Dev"
-    }
-  ],
+ "Team": [
+  {
+    "icon": "fa fa-comments",
+    "title": "AI Customer Support",
+    "text": "Automate responses, reduce ticket volume, and assist support teams."
+  },
+  {
+    "icon": "fa fa-line-chart",
+    "title": "Sales & Lead Qualification",
+    "text": "Identify, qualify, and engage leads with AI-driven workflows."
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "title": "Document Processing",
+    "text": "Extract, analyze, and organize data from PDFs and reports."
+  },
+  {
+    "icon": "fa fa-search",
+    "title": "Smart Search Systems",
+    "text": "Enable semantic search across your internal or customer-facing data."
+  },
+  {
+    "icon": "fa fa-cogs",
+    "title": "Business Process Automation",
+    "text": "Automate repetitive internal workflows and operations."
+  },
+  {
+    "icon": "fa fa-lightbulb-o",
+    "title": "AI Insights & Reporting",
+    "text": "Turn raw data into clear, actionable insights in real time."
+  }
+],
   "Contact": {
     "address": "Cross Campus, Pasadena, 87 N Raymond Ave, Pasadena, CA 91103, United States",
     "phone": "@ThirdWebProSolutions",
@@ -136,24 +126,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-desktop",
-      "title": "Traditional Websites",
-      "text": "From landing pages to complex e-commerce stores to marketplaces."
+      "icon": "fa fa-gears",
+      "title": "AI Workflow Automation",
+      "text": "We design and build AI systems that automate repetitive business processes—from customer support to internal operations—saving time and reducing costs."
     },
     {
-      "icon": "fa fa-cubes",
-      "title": "Decentralized Apps",
-      "text": "We will help you create dapps on the Ethereum blockchain. Acquire new makrets, income streams and propel your business into the future."
+      "icon": "fa fa-comments",
+      "title": "Custom AI Assistants",
+      "text": "We create context-aware AI assistants trained on your data that can support customers, employees, and sales teams with accurate, real-time answers."
     },
     {
-      "icon": "fa fa-btc",
-      "title": "Tokens, Coins and NFTs",
-      "text": "ERC-20, ERC-721, ERC-1155 tokens, staking, vesting, timelock for the listed tokens, contracts for dividend payments, smart contracts development in Solidity."
+      "icon": "fa fa-plug",
+      "title": "AI Features for SaaS",
+      "text": "We integrate AI directly into your product—adding capabilities like smart search, content generation, and intelligent copilots that enhance user experience."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Consulting",
-      "text": "From FinTech to online gaming to social media. Our expert software solutions will help your team bring your next blockchain project to fruition."
+      "icon": "fa fa-line-chart",
+      "title": "AI Tools & Dashboards",
+      "text": "We build custom internal tools that turn your data into actionable insights—helping your team make faster, better decisions."
     }
   ]
 }

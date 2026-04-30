@@ -20,8 +20,8 @@ import './navigation.css';
           </button>
           <a className='logo-a navbar-brand page-scroll' href='#page-top'>
             <img
-              src='img/logo.png'
-              alt='Thirdweb pro solutions'
+              src='img/logo.svg'
+              alt='EvolutAI'
               className='about-img'
             />
           </a>{' '}
@@ -52,14 +52,10 @@ import './navigation.css';
                 Expertise
               </a>
             </li>
+           
             <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
+              <a href='#usecases' className='page-scroll'>
+                Use cases
               </a>
             </li>
             <li>

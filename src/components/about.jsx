@@ -5,7 +5,7 @@ const About = (props) => {
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
             {' '}
-            <img src='img/about.webp' className='img-responsive' alt='' />{' '}
+            <img src='img/about.webp' className='img-responsive about-image1' alt='' />{' '}
           </div>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>
