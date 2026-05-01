@@ -13,21 +13,20 @@ const initialState = {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  // const clearState = () => setState({ ...initialState });
 
 const handleSubmit = (e) => {
   e.preventDefault();
 
   emailjs
     .send(
-      'service_6g0mxrg',     // from EmailJS
-      'template_cztc59k',    // from EmailJS
+      'service_6g0mxrg',     
+      'template_cztc59k',    
       {
         name: name,
         email: email,
         message: message,
       },
-      '2cHgTZQn6tIwu2ffm'      // (was USER_ID, now called public key)
+      '2cHgTZQn6tIwu2ffm'   
     )
     .then(
       (result) => {
@@ -66,6 +65,7 @@ const handleSubmit = (e) => {
                         className='form-control'
                         placeholder='Name'
                         required
+                        value={name}
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
@@ -80,6 +80,7 @@ const handleSubmit = (e) => {
                         className='form-control'
                         placeholder='Email'
                         required
+                        value={email}
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
@@ -94,6 +95,7 @@ const handleSubmit = (e) => {
                     rows='4'
                     placeholder='Message'
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
