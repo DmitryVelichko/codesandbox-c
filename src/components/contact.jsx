@@ -6,40 +6,51 @@ const initialState = {
   email: '',
   message: '',
 };
- const Contact = (props) => {
+const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [modal, setModal] = useState({
+    show: false,
+    type: '', // 'success' | 'error'
+    message: '',
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
 
-const handleSubmit = (e) => {
-  e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-  emailjs
-    .send(
-      'service_6g0mxrg',     
-      'template_cztc59k',    
-      {
-        name: name,
-        email: email,
-        message: message,
-      },
-      '2cHgTZQn6tIwu2ffm'   
-    )
-    .then(
-      (result) => {
-        console.log('SUCCESS!', result.text);
-        alert('Message sent successfully!');
-        setState(initialState);
-      },
-      (error) => {
-        console.log('FAILED...', error.text);
-        alert('Something went wrong. Try again.');
-      }
-    );
-};
+    emailjs
+      .send(
+        'service_6g0mxrg',
+        'template_cztc59k',
+        {
+          name: name,
+          email: email,
+          message: message,
+        },
+        '2cHgTZQn6tIwu2ffm'
+      )
+      .then(
+        (result) => {
+          setModal({
+            show: true,
+            type: 'success',
+            message: 'Your message has been sent successfully! Thank you. We will follow up ASAP.',
+          });
+          setState(initialState);
+        },
+        (error) => {
+          setModal({
+            show: true,
+            type: 'error',
+            message: 'Something went wrong with third-party EmailJS service. Please try reaching out via telegram or email.',
+          });
+        }
+      );
+  };
 
   return (
     <div>
@@ -144,6 +155,19 @@ const handleSubmit = (e) => {
           <p>&copy; {new Date().getFullYear()} Evolut AI</p>
         </div>
       </div>
+      {modal.show && (
+        <div className="modal-overlay" onClick={() => setModal({ ...modal, show: false })}>
+          <div className="modal-box" onClick={(e) => e.stopPropagation()}>
+            <h3 className={modal.type}>
+              {modal.type === 'success' ? 'Success' : 'Error'}
+            </h3>
+            <p>{modal.message}</p>
+            <button onClick={() => setModal({ ...modal, show: false })}>
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
