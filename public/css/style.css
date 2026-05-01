@@ -589,8 +589,7 @@ header .intro-text {
 
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
-  margin-bottom: 25px;
+
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -726,20 +725,40 @@ label {
 
 
 @media (max-width: 991px) {
-   /* Fix grid breaking on small screens */
-#features .row {
-  display: flex;
-  flex-wrap: wrap;
+
+  /* Fix grid breaking on small screens */
+  #features .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #features .row > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* ✅ centers icon + text */
+    text-align: center;    /* ✅ ensures text stays centered */
+    margin-bottom: 30px;   /* optional spacing */
+  }
+
+  /* Fix icon alignment */
+  #features i.fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;   /* centers horizontally */
+  }
 }
 
-#features .row > div {
-  display: flex;
-  flex-direction: column;
-}
-}
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #about img {
-    margin: 50px 0;
+    margin: 50px auto;
+  }
+  #about .about-text-h2 {
+text-align: center;
+  }
+  #about h2::after {
+   left: 50%;
+    transform: translateX(-50%);
   }
 }
 
