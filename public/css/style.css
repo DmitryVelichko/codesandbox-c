@@ -725,6 +725,18 @@ label {
 }
 
 
+@media (max-width: 991px) {
+   /* Fix grid breaking on small screens */
+#features .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#features .row > div {
+  display: flex;
+  flex-direction: column;
+}
+}
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
