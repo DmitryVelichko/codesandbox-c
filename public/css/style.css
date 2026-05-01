@@ -530,9 +530,10 @@ header .intro-text {
   transform: translateY(0);
 }
 
-/* Team Section */
+/* Use cases Section */
 #usecases {
   padding: 100px 0;
+  background: #f6f6f6;
 }
 
 #usecases .usecase-box {
